@@ -1,0 +1,19 @@
+{
+  "name": "electron-template",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/main/main.js",
+  "scripts": {
+    "test": "electron .",
+    "pack": "electron-packager ./ my_app_name --out ./dist --overwrite --asar --ignore=dist/ --ignore=node_modules/ --extra-resource=src/"
+  },
+  "keywords": [
+    "application"
+  ],
+  "author": "ty",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^26.1.0",
+    "electron-packager": "^17.1.2"
+  }
+}
